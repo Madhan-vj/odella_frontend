@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="custom-body">
+    <div class="custom-container">
+      <form action="">
+        <div class="form-row ">
+          <div class="form-group col-md-2">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+             MTP
+            </label>
+          </div>
+        </div>
+          <div class="form-row justify-content-center">
+        
+              <div class="form-group col-md-3">
+                <label for="name">Training name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <!-- Training Module -->
+              <div class="form-group col-md-3">
+                  <label for="module">Training module</label>
+                  <!-- <input type="text" class="form-control" id="module"> -->
+                  <select class="form-control" id="module">
+                  </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="category">Training category</label>
+                <!-- <input type="text" class="form-control" id="category"> -->
+                <select class="form-control" id="category">
+                </select>
+              </div>
+            </div>
+            <div class="form-row justify-content-center">
+            
+              <div class="form-group col-md-3">
+                <label for="reference">Training reference</label>
+                <input type="text" class="form-control" id="reference">
+              </div>
+              <div class="form-group col-md-3">
+                  <label for="tags">Training tags</label>
+                  <input type="text" class="form-control" id="tags">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="customization">customization</label>
+                <input type="text" class="form-control" id="customization">
+              </div>
+            </div>
+            <div class="form-row justify-content-center">
+                  <div class="form-group col-md-3">
+                      <label for="reference">Location</label>
+                      <input type="text" class="form-control mb-2" id="locationName">
+                      <!-- <input type="text" class="form-control mb-2" id="location">
+                      <input type="text" class="form-control mb-2" id="location"> -->
+                  </div>
+                  <div class="form-group col-md-3">
+                      <label for="reference">Trainer</label>
+                      <input type="text" class="form-control mb-2" id="trainer">
+                      <!-- <input type="text" class="form-control mb-2" id="trainer">
+                      <input type="text" class="form-control mb-2" id="trainer"> -->
+                  </div>
+                  <div class="form-group col-md-3">
+                      <label for="reference">Schedule</label>
+                      <input  type="date" class="form-control" id="Schedule">
+                      <!-- <input type="text" class="form-control mb-2" id="Schedule">
+                      <input type="text" class="form-control mb-2" id="Schedule"> -->
+                  </div>
+                  <!-- <div class="form-group col-md-2">
+                    <label for="reference">Schedule</label>
+                    <input type="text" class="form-control mb-2" id="EndDateAndTime">
+                    <input type="text" class="form-control mb-2" id="Schedule">
+                    <input type="text" class="form-control mb-2" id="Schedule"> 
+                </div> -->
+            </div>
+            <div class="form-row justify-content-center">
+              <label class = "col-md-2" for="reference">Supporting Document</label>
+              <input type="file" class="form-group col-md-2" id="customFile" />
+              <div class="form-group col-md-3">
+                <input  type="text" class="form-control" id="DocumentName">
+              </div>
+              <!-- <div class="form-group col-md-1">
+                <input  type="date" class="form-control" id="startDateAndTime">
+              </div>
+              <div class="form-group col-md-1">
+                <input  type="date" class="form-control" id="EndDateAndTime">
+              </div> -->
+            </div>
+            <div class="form-row justify-content-center">
+              <label class ="col-md-2" for="reference">Training Description</label>
+              <div class="form-group col-md-4">
+                <input type="text" class="form-control" id="Description">
+              </div>
+            </div>
+            <hr/>
+            <div class="form-row">
+              <label for="reference">Price</label>
+            </div>
+            <div class="form-row justify-content-center">
+              <div class="form-group col-md-2">  
+               <div class="mb-2"><label for="reference">Member Band 1</label></div>
+               <div class="mb-2"><label for="reference">Member Band 2</label></div>
+               <div class="mb-2"><label for="reference">Member Band 3</label></div>
+               <div class="mb-2"><label for="reference">Member Band 4</label></div>
+              </div>
+              <div class="form-group col-md-2">  
+                <div><input type="text" class="form-control mb-2" id="trainingPrice1"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingPrice2"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingPrice3"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingPrice4"></div>
+              </div>
+              <div class="form-group col-md-2">  
+                <div><input type="text" class="form-control mb-2" id="trainingTax1"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingTax2"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingTax3"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingTax4"></div>
+              </div>
+              <div class="form-group col-md-2">  
+                <div><input type="text" class="form-control mb-2" id="trainingOffer1"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingOffer2"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingOffer3"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingOffer4"></div>
+               </div>
+               <div class="form-group col-md-2">  
+                <div><input type="text" class="form-control mb-2" id="trainingDiscount1"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingDiscount2"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingDiscount3"></div>
+                <div><input type="text" class="form-control mb-2" id="trainingDiscount4"></div>
+               </div>
+            </div>
+            <input type="button" class="btn btn-success submit-btn" value="Submit">
+      </form>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
